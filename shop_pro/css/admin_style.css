@@ -1,0 +1,217 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-color: #f5f5f5;
+}
+.clear{
+	clear: both;
+}
+#top-menu {
+	width: 100%;
+	background-color: #dab4b4;
+	color: white;
+	padding-left:20px;
+}
+#menu {
+	width: 980px;
+	background-color: greenyellow;
+	color: white;
+	margin: 5px auto;
+	height: 60px
+}
+#banner {
+	background-image: url(../images/banner2.png);
+    width: 960px;
+    height: 90px;
+    margin: auto;
+}
+#menu .menu-content{
+	width: 25%;
+	float: left;
+	text-align: center;
+	height: 60px;
+	padding-top: 5px;
+	border-right: 1px solid #b6f7b6;
+}
+#menu .menu-content a {
+	color: white;
+    text-decoration: none;
+}
+#menu .menu-content:hover{
+	background-color: green;
+}
+#wrapper{
+	width: 980px;
+	height: auto;
+	margin: 10px auto;
+	background-color: #fff;
+	border:1px solid #ddd;
+
+}
+#wrapper #content {
+	margin: 80px 88px 20px 88px;
+	width: 800px;
+	height: 200px;
+}
+#wrapper .form-login {
+	width: 936px;
+	margin: 20px;
+	border:1px solid #ddd;
+}
+#wrapper #content #text-center #icon-content{
+	border: 1px solid gray;
+    margin: 0px 350px;
+    padding: 10px 20px;
+    color: gray;
+}
+#wrapper #content #text-center #text-content{
+	margin: 20px 300px;
+	text-align: center;
+}
+
+#wrapper .form-login .login {
+	width: 880px;
+	height: 30px;
+	border:none;
+}
+#wrapper .form-login .login {
+	width: 890px;
+	height: 30px;
+	border:none;
+	outline: none;
+}
+#wrapper .form-login .login:active {
+	border:none;
+}
+#wrapper .form-login .login-icon{
+	margin-left:20px;
+}
+
+#wrapper .but-login{
+	width: 936px;
+    margin: 0px 0px 20px 20px;
+    height: 30px;
+    color: white;
+    background-color: #71a771;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#wrapper .but-login:hover{
+	background-color: green;
+}
+#wrapper #department {
+margin: 20px 250px;
+}
+#wrapper #department .title{
+	margin-bottom: 30px;
+	text-align: center;
+}
+#wrapper #department .title h1{
+    text-align: center;
+    text-decoration: overline;
+}
+.table {
+	margin: 0px auto;
+    border: 1px solid #dad2d2;
+    background-color: #fff4f4;
+    padding: 20px 50px;
+}
+.table tr td {
+	padding-bottom: 10px;
+}
+.table tr td a{
+	color: #5bb709;
+	text-decoration: none;
+	font-size: 25px;
+    font-weight: bolder;
+}
+.table-list:hover {
+	background-color: #c3f3d8;
+}
+.table tr td a:hover{
+	text-decoration: underline;
+}
+.table-title{
+	background-color: #72c195;
+}
+.category {
+	margin-left: -100px;
+}
+#wrapper .butsm{
+	width: 100%;
+	background-color: #71a771;
+	height: 30px;
+	color: white;
+	font-size: 20px;
+}
+.req {
+	color: red;
+}
+#error {
+	margin: 0px auto;
+	color: red;
+	text-align: center;
+}
+.page {
+	border: 1px solid #dad2d2;
+	margin: 20px;
+    height: 30px;
+}
+.page-number {
+	float: left;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.page-number-s{
+	background-color: #dad2d2;
+}
+.page-number:hover {
+	background-color: #ddd;
+}
+.page-text:hover {
+	text-decoration: underline;
+}
+.page-text{
+	float: left;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+}
+.page-text:fist-child{
+	margin-left: 30px
+}
+.page a{
+	color: green;
+	text-decoration: none
+}
+#footer {
+	width: 100%;
+	height: 300px;
+    color: #878787;
+    background-color: green;
+    border-bottom: #000 solid 6px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 10px;
+}
+#footer .foot_logo {
+	width: 200px;
+    float: left;
+    margin: 50px;
+}
+#footer .botm_navi{
+	width: 600px;
+    float: right;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+#footer .botm_navi ul li a{
+	color: white;
+}

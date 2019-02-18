@@ -1,0 +1,1 @@
+<?php unset($_SESSION['ad_id']); unset($_SESSION['ad_name']);	header('location:?mod=login'); ?>
